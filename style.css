@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainContainer {
+  padding: 0 20px;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+
+.rightTopbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.address {
+  margin-left: 7px;
+  color: #808080;
+}
+
+.leftTopbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang select {
+  border: none;
+  color: #808080;
+}
+
+.curr select {
+  border: none;
+  margin-left: 7px;
+  color: #808080;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  font-size: 17px;
+  padding: 2px;
+}
+
+.search button {
+  background-color: #00b207;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.contactUs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.phoneCall img {
+  width: 33px;
+}
+
+.PhoneCallNo {
+  margin-left: 7px;
+}
+
+.PhoneCallNo p {
+  color: #808080;
+  margin-bottom: 2px;
+}
+
+.navigation {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.icons img {
+  margin-left: 20px;
+  width: 23px;
+}
+
+@media (max-width: 426px) {
+  .map img {
+    width: 14px;
+  }
+
+  .rightTopbar {
+    font-size: 11px;
+  }
+
+  .lang select {
+    font-size: 11px;
+  }
+
+  .curr select {
+    font-size: 11px;
+  }
+
+  .logo img {
+    width: 85px;
+  }
+
+  .search input {
+    font-size: 8px;
+    width: 80px;
+  }
+}
+
+@media (max-width: 769px) {
+  .logo img {
+    width: 110px;
+  }
+
+  .search input {
+    font-size: 12px;
+    padding: 1px;
+    width: 140px;
+  }
+
+  .search button {
+    border-radius: 1px;
+    font-size: 8px;
+  }
+
+  .phoneCall img {
+    width: 25px;
+  }
+
+  .PhoneCallNo {
+    margin-left: 7px;
+  }
+
+  .PhoneCallNo p {
+    color: #808080;
+    margin-bottom: 2px;
+    font-size: 13px;
+  }
+
+  .PhoneCallNo h4 {
+    font-size: 13px;
+  }
+
+  .navigation {
+    padding: 7px 0;
+  }
+
+  .navbar a {
+    margin-right: 15px;
+  }
+}
