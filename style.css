@@ -428,35 +428,34 @@
 }
 
 .productContant {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    text-align: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-align: center;
 }
 
- .product{
+.product {
   /* margin: 0 -16px; */
-    box-shadow: 0 0 0.5px;
-    padding-top: 5px;
-    border-radius: 5px;
-    border: 1px rgba(230, 230, 230, 1);
-    display: flex;
-    flex-direction: column; 
-} 
+  box-shadow: 0 0 0.5px;
+  padding-top: 5px;
+  border-radius: 5px;
+  border: 1px rgba(230, 230, 230, 1);
+  display: flex;
+  flex-direction: column;
+}
 
 .product img {
   width: 100%;
 }
 
-.bannerContainer{
+.bannerContainer {
   display: flex;
   gap: 20px;
   width: 100%;
-
+  margin: 30px 0;
 }
 
-.banner{
-  flex: 1;
+.banner {
+  width: 100%;
   height: 540px;
   border-radius: 12px;
   background-size: cover;
@@ -464,21 +463,535 @@
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
+  text-align: center;
+  color: white;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
-.banner1{
+.banner1 {
   background-image: url(assets/images/Rectangle.54.png);
 }
 
-.banner2{
-  background-image: url(assets/images/Rectangle.54.2.png);
-}
-
-.banner3{
+.banner2 {
   background-image: url(assets/images/Rectangle.54.1.png);
 }
 
+.banner3 {
+  background-image: url(assets/images/Rectangle.54.2.png);
+  color: #000000;
+}
 
+.tag {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.banner h2 {
+  font-size: 31px;
+  margin-top: 15px;
+}
+
+.price {
+  padding: 21px 0;
+}
+
+.price b {
+  color: #ff8a00;
+}
+
+.off {
+  color: white;
+  padding: 18px 0px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.off button {
+  border: none;
+  padding: 5px;
+  color: white;
+  background-color: rgba(26, 26, 26, 1);
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.timer div {
+  margin: 6px;
+}
+
+.timer div b {
+  font-size: 20px;
+}
+
+.shopBtn {
+  margin-top: 20px;
+  background-color: white;
+  color: #00b207;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.shopBtn img {
+  width: 14px;
+}
+
+.HotDeals {
+  margin-top: 40px;
+}
+
+/* .deals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+} */
+
+/* .Deals { */
+/* margin: 0 -16px; */
+/* box-shadow: 0 0 0.5px;
+  padding-top: 5px;
+  border: 1px rgba(230, 230, 230, 1);
+  display: flex;
+  flex-direction: column;
+} */
+
+.deals {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.Deals {
+  text-align: center;
+  border: 1px rgba(230, 230, 230, 1);
+  box-shadow: 0 0 0.5px;
+  padding: 5px;
+}
+
+.Deals img {
+  width: 100%;
+}
+
+.OfferBanner {
+  background-image: url(assets/images/736ac341802327b2806c879e76b9b8612d16e984.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 380px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-radius: 10px;
+  margin: 40px 0;
+  position: relative;
+}
+.bannerText {
+  position: absolute;
+  left: 70%;
+  top: 13%;
+  color: white;
+}
+
+.bannerText b {
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.bannerText h3 {
+  padding-top: 5px;
+  font-size: 45px;
+}
+
+.bannerText p {
+  color: Gray;
+  padding: 10px 0;
+}
+
+.bannerText h3 span {
+  color: #ff8a00;
+}
+
+.OffershopBtn {
+  margin-top: 20px;
+  background-color: #00b207;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.OffershopBtn img {
+  width: 14px;
+}
+
+.featuredProducts {
+  margin-top: 40px;
+}
+
+.titleName {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.titleName h3 {
+  font-size: 30px;
+}
+
+.viewAll {
+  display: flex;
+  color: #00b207;
+  align-items: center;
+}
+
+.viewAll h5 {
+  padding-right: 10px;
+  font-size: 16px;
+}
+
+.FeaturedContant {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.vegitables {
+  box-shadow: 0 0 0.5px;
+  padding-top: 5px;
+  border-radius: 5px;
+  border: 1px rgba(229, 229, 229, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+.vegitables img {
+  width: 100%;
+}
+
+.latestNews {
+  max-width: 1320px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  font-weight: 700px;
+}
+
+.newsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.newsCard {
+  overflow: hidden;
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.08);
+
+}
+
+.newsImg {
+  position: relative;
+  overflow: hidden;
+}
+
+.newsImg img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.newsDate {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  text-align: center;
+  width: 40px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.newsDtae span {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.newsDate small {
+  font-size: 12px;
+}
+
+.newsContent {
+  padding: 20px;
+}
+
+.newsMeta {
+  display: flex;
+  gap: 15px;
+  font-size: 13px;
+  margin-bottom: 10px;
+  list-style: none;
+  align-items: center;
+}
+
+.newsMeta li {
+  display: flex;
+  align-items: center;
+}
+.newsMeta li img{
+  width: 15px;
+  margin: 4px;
+}
+
+.newsContent h3 {
+  font-size: 17px;
+  color: rgba(26, 26, 26, 1);
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+
+
+.newsContent p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.newsContent a {
+  font-size: 14px;
+  color:#00b207;
+  text-decoration: none;
+}
+
+.newsContent a img{
+  width: 15px;
+}
+
+.testimonials {
+  background-color: rgba(242, 242, 242, 1);
+  padding: 40px 0 20px 0;
+}
+
+.testHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testHeader h2 {
+  font-size: 30px;
+  font-weight: 700px;
+}
+
+.button {
+  border: none;
+}
+
+.navBtn1 {
+  background-color: white;
+  border-radius: 30px;
+  padding: 13px;
+}
+
+.navBtn2 {
+  background-color: #00b207;
+  border-radius: 30px;
+  padding: 13px;
+}
+
+.testimonialMainContainer {
+  background-color: rgba(242, 242, 242, 1);
+  padding: 0px 20px;
+}
+
+.testimonialCardContainer {
+  overflow: hidden;
+}
+
+.testimonialGrid {
+  display: flex;
+  align-items: end;
+  gap: 25px;
+  padding-bottom: 40px;
+  position: relative;
+  transition: 1s;
+}
+
+.testimonialCard {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  margin: 0 10px;
+  min-width: 300px;
+}
+
+.testimonialCard p {
+  font-size: 9px;
+  color: rgba(77, 77, 77, 1);
+}
+
+.quote {
+  width: 15px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.userDetails {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  
+}
+
+.profile {
+  width: 40px;
+}
+
+.user h4 {
+  font-size: 15px;
+}
+
+.user span {
+  font-size: 10px;
+  color: rgba(153, 153, 153, 1);
+}
+
+.star {
+  margin-left: auto;
+  width: 15px;
+}
+
+/* .companyLogo {
+  animation: scroll 10s linear infinite;
+  margin: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #ff8a00;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+} */
+
+.instagramSection {
+  text-align: center;
+}
+
+.instaGallery {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  margin: 20px 0 40px 0;
+}
+
+.instaGallery img {
+  width: 150px;
+}
+
+.newSletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.newSletterLeft h2 {
+  font-size: 18px;
+}
+
+.newSletterLeft p {
+  font-size: 10px;
+  color: rgba(153, 153, 153, 1);
+}
+
+.newSletterRight input {
+  padding: 5px 50px 5px 10px;
+  border-radius: 21px 0px 0px 21px;
+  border-color: rgba(229, 229, 229, 1);
+}
+
+.newSletterRight button {
+  background-color: #00b207;
+  border: none;
+  padding: 7px;
+  border-radius: 20px;
+  margin-left: -30px;
+}
+
+.footer {
+  background-color: rgba(26, 26, 26, 1);
+  color: rgba(128, 128, 128, 1);
+}
+
+.footerContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  padding: 40px 50px;
+}
+
+.footerBox P {
+  font-size: 10px;
+}
+
+.footerBox h4 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.footerBox ul {
+  list-style: none;
+}
+
+.footerBox ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.footerContact {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footerContact span {
+  padding: 0 30px;
+}
+
+.footerBottom {
+  background-color: rgba(26, 26, 26, 1);
+  color: rgba(128, 128, 128, 1);
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+}
 @media (max-width: 769px) {
   .logo img {
     width: 110px;
@@ -610,12 +1123,70 @@
     flex-wrap: nowrap;
   }
 
-.product{
-  width: 180px;
-}
-.md-d-none {
-  display: none;
-}
+  .product {
+    width: 180px;
+  }
+  .md-d-none {
+    display: none;
+  }
+
+  .banner {
+    height: 285px;
+    padding: 20px 10px;
+  }
+
+  .tag {
+    font-size: 10px;
+  }
+
+  .banner h2 {
+    font-size: 22px;
+    margin-top: 10px;
+  }
+
+  .timer div {
+    margin: 7px;
+  }
+
+  .timer div b {
+    font-size: 12px;
+  }
+
+  .timer div p {
+    font-size: 10px;
+  }
+
+  .shopBtn {
+    margin-top: 15px;
+    padding: 6px 7px;
+    font-size: 11px;
+    gap: 4px;
+  }
+
+  .shopBtn img {
+    width: 12px;
+  }
+
+  .price {
+    font-size: 14px;
+    padding: 16px 0;
+  }
+
+  .off {
+    margin-top: 0px;
+    padding: 13px 0;
+    font-size: 13px;
+    padding: 12px 0px;
+  }
+
+  .off button {
+    padding: 2px 3px;
+    font-size: 12px;
+  }
+
+  .deals {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 @media (max-width: 426px) {
@@ -677,13 +1248,22 @@
     padding: 10px;
     top: 45px;
   }
-.product {
-  width: 120px;
-}
-
-
-  .sm-d-none{
+  .product {
+    width: 120px;
+  }
+  .sm-d-none {
     display: none;
   }
-}
 
+  .bannerContainer {
+    flex-direction: column;
+  }
+
+  .banner {
+    height: 270px;
+  }
+
+  .deals {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
