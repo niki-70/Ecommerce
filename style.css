@@ -915,29 +915,29 @@
   width: 150px;
 }
 
-.newSletter {
+.newsLetter {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 15px 0;
 }
 
-.newSletterLeft h2 {
+.newsLetterLeft h2 {
   font-size: 18px;
 }
 
-.newSletterLeft p {
+.newsLetterLeft p {
   font-size: 10px;
   color: rgba(153, 153, 153, 1);
 }
 
-.newSletterRight input {
+.newsLetterRight input {
   padding: 5px 50px 5px 10px;
   border-radius: 21px 0px 0px 21px;
   border-color: rgba(229, 229, 229, 1);
 }
 
-.newSletterRight button {
+.newsLetterRight button {
   background-color: #00b207;
   border: none;
   padding: 7px;
